@@ -1,0 +1,17 @@
+{
+  "name": "AutoSprint",
+  "version": "1.0.0",
+  "packageManager": "yarn@4.9.1",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "main": "src/AutoSprint.ts",
+  "devDependencies": {
+    "@highlite/plugin-api": "^1.1.0",
+    "esbuild": "^0.25.8",
+    "typescript": "^5.8.3"
+  }
+}
