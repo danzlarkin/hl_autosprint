@@ -1,4 +1,4 @@
-import {Plugin, SettingsTypes} from "@highlite/plugin-api";
+import { Plugin, SettingsTypes } from "@highlite/core";
 
 export default class AutoSprint extends Plugin {
     pluginName = 'AutoSprint';
