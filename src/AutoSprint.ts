@@ -43,7 +43,7 @@ export default class AutoSprint extends Plugin {
         if (!this.settings.enable.value) return;
 
         // Only run if the user is already logged in
-        if (this.isLoggedIn) {
+        if (this.isLoggedIn || document.highlite.gameHooks?.EntityManager?.Instance?.MainPlayer) {
             // Find the button (only if not already activated)
             const sprintDisabledButton = document.querySelector(
                 'button.hs-button.hs-action-bar-button:not(.hs-action-bar-button--selected):has(.hs-action-bar-item__image--sprint)'
