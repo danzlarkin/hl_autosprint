@@ -1,6 +1,6 @@
 {
   "name": "AutoSprint",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "packageManager": "yarn@4.9.1",
   "engines": {
     "node": ">=22.0.0"
